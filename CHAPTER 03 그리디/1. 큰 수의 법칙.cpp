@@ -27,10 +27,13 @@ using namespace std;
 
 int solution(vector<int>& nums, int m, int k) {
 	int answer = 0;
+<<<<<<< HEAD
 	// num[0] = 가장 큰 수 
 	// num[1] = 두번째로 큰 수 만 사용
 	// m / (k + 1) = 전체 m개 / (가장 큰 수가 k개 + 두 번째로 큰 수가 1개)
 	// m % (k + 1) = 위의 계산식의 나머지 개수 
+=======
+>>>>>>> 7747aa10be96f9ed2481e4d96f0ab13111a13250
 	answer = nums[0] * (m / (k + 1) * k + m % (k + 1)) + nums[1] * (m / (k + 1));
 	return answer;
 }
