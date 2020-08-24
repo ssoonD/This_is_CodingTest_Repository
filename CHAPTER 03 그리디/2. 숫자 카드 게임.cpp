@@ -38,13 +38,19 @@ int main() {
 	int answer = 0;
 
 	for (int i = 0; i < n; i++) {
+<<<<<<< HEAD
 		// 같은 행에서의 최솟값 구하기 
+=======
+>>>>>>> 7747aa10be96f9ed2481e4d96f0ab13111a13250
 		int min_num = 100005;
 		for (int j = 0; j < m; j++) {
 			int num; cin >> num;
 			min_num = min(num, min_num);
 		}
+<<<<<<< HEAD
 		// 최솟값의 최댓값 누적
+=======
+>>>>>>> 7747aa10be96f9ed2481e4d96f0ab13111a13250
 		answer = max(min_num, answer);
 	}
 
