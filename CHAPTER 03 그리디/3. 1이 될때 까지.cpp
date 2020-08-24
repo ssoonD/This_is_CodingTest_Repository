@@ -29,9 +29,13 @@ int main() {
     int answer = 0;
 
     while (n != 1) {
+<<<<<<< HEAD
         // ³ª´©¾î ¶³¾îÁö¸é ³ª´®
         if (n % k == 0) n /= k;
         // ¾Æ´Ï¸é 1 »©±â
+=======
+        if (n % k == 0) n /= k;
+>>>>>>> 7747aa10be96f9ed2481e4d96f0ab13111a13250
         else n--;
         answer++;
     }
